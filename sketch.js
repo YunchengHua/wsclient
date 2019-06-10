@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000, 500);
+  createCanvas(800, 500);
   // connect to server:
   socket = new WebSocket('ws://' + host);
   // socket connection listener:
